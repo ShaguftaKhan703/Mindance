@@ -1,0 +1,109 @@
+:root {
+  --mainColor: #9f83ec;
+  --mainColorLight: #c4ceff;
+  --textColor: #ffffff;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 2rem;
+  background-color: var(--mainColor);
+  color: var(--textColor);
+}
+
+.navbar-container a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: #eedffa;
+  text-decoration: none;
+}
+
+.image {
+  height: 30px;
+  width: auto;
+  /* transform: rotate(20deg); */
+}
+
+.navbar a {
+  margin: 0 1rem;
+  color: #eedffa;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #7A50EF;
+}
+
+.navbar-container .nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--textColor);
+  visibility: hidden;
+  opacity: 0;
+  font-size: 1.8rem;
+}
+
+.navbar-container div, .navbar {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+}
+
+.navbar-auth-button {
+  width: 70px;
+  background-color: #5F30DF;
+  font-size: 16px;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.navbar-auth-button:hover {
+  background-color: blueviolet;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navbar-container .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .navbar-container .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: var(--mainColor);
+    transition: 1s;
+    transform: translateY(-100vh);
+    z-index: 1;
+  }
+
+  .navbar-container .responsive_nav {
+    transform: none;
+  }
+
+  .navbar .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  .navbar .a {
+    font-size: 1.5rem;
+  }
+}

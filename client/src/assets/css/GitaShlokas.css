@@ -1,0 +1,71 @@
+.GitaHeader {
+  background-color: #9f83ec;
+  color: #EEDFFA;
+  height: 150px;
+}
+
+.GitaHeader h1 {
+  text-align: center;
+  padding: 50px;
+}
+.slide-down:not(.show) {
+  height: 0;
+}
+
+.shloka-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  transition: margin 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+  padding:5em 3em;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  height: 140px;
+}
+
+.section-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #bfacf5;
+  cursor: pointer;
+  width: 120px;
+  border: 1px solid #CCCCCC;
+  border-radius: 9px;
+  justify-content: center;
+  margin-right: 20px;
+  color: #ffffff;
+}
+
+.section-title:focus {
+  outline: none;
+  height: 140px;
+  margin-bottom: 20px;
+  width: 150px;
+  border: 1px solid #000000;
+}
+
+.section-title:hover {
+  background-color: #9f83ec;
+}
+
+.section-content {
+  padding: 20px;
+  background-color: #eedffa;
+  width: 80%;
+
+  height: 100px;
+  border: 1px solid #000000;
+  border-radius: 9px;
+}
+
+.section-content p {
+  margin-bottom: 7px;
+}

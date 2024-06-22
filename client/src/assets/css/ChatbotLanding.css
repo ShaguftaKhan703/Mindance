@@ -1,0 +1,82 @@
+.container5 {
+  width: 100%;
+  background-color: #e2d1ff;
+  margin: auto;
+  height: 647px;
+
+}
+
+.one {
+  width: 20%;
+  text-align: center;
+  float: left;
+  padding-left: 80px;
+  padding-top: 70px;
+ 
+}
+
+.two {
+  float: right;
+  width: 50%;
+}
+
+.ImageChatbot {
+  width: 642px;
+height: 647px;
+}
+
+.chatbotText{
+  width: 358px;
+  height: 300px;
+    font-family: 'Apercu';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+
+padding-top: 100px;
+
+text-align: center;
+letter-spacing: -0.04em;
+
+color: #5F30DF;
+}
+
+.quality{
+    padding-top: 30px;
+    background-color: #5F30DF;
+    height: 200px;
+}
+
+#leftbox1 {
+    float: left;
+    text-align: center;
+    width: 33.3%;
+    height: 200px;
+  }
+  
+  #middlebox1 {
+    float: left;
+    text-align: center;
+    width: 33.3%;
+    height: 280px;
+  }
+  
+  #rightbox1 {
+    float: right;
+    text-align: center;
+    width: 33.3%;
+    height: 280px;
+  }
+
+  .offer1{
+    padding-top: 20px;
+    font-size:large;
+    font-family: cursive;
+    font-weight: 700;
+    color: #e2d1ff;
+  }
+
+  .icon1{
+    padding: 10px;
+    height: 100px;
+  }

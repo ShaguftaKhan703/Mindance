@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Crafty+Girls&family=Montserrat:wght@300;400;500;600&family=Poppins:wght@200;300;400;500;600&display=swap");
+
+.newsletter {
+  position: relative;
+  text-align: center;
+  background-color: #C4CEFF;
+}
+
+.newsletter-title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+
+  color: #ffffff;
+  text-align: center;
+}
+
+.newsletter-text {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  text-align: center;
+  letter-spacing: 0.2em;
+
+  color: #ffffff;
+  text-align: center;
+}
+
+.Footerimg {
+  height: 1000;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.text-on-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#myEmail {
+  height: 20px;
+  padding: 5px;
+  margin: 20px 20px 0px 0px;
+  border-color: #000000;
+  font-family: cursive;
+  font-size: large;
+  font-weight: 400;
+  box-shadow: 0 4px 8px 0 rgb(56, 110, 129), 0 6px 20px 0 rgb(56, 110, 129);
+}
+
+.submitBtn {
+  height: 36px;
+  padding: 5px;
+  margin: 20px 20px 0px 0px;
+  background-color: #d7bffe;
+  border-color: #8931cc;
+  border-radius: 15%;
+  font-family: cursive;
+  font-size: large;
+  font-weight: 400;
+  box-shadow: 0 4px 8px 0 rgb(56, 110, 129), 0 6px 20px 0 rgb(56, 110, 129);
+}
+
+.Footer {
+ 
+  color: #eeeeee;
+  padding: 30px;
+  font-family: cursive;
+  font-size: large;
+  font-weight: 400;
+  background-color: #8969F2;
+  overflow: hidden;
+  
+}
+
+.leftbox {
+  float: left;
+
+  text-align: center;
+  width: 33.3%;
+  height: 90px;
+}
+.middlebox {
+  float: left;
+
+  text-align: center;
+  width: 33.3%;
+  height: 90px;
+}
+.rightbox {
+  float: right;
+
+  text-align: center;
+  width: 33.3%;
+  height: 90px;
+}
+
+@media screen and (max-width: 700px) {
+  .newsletter-text {
+    display: none;
+  }
+  .newsletter-title{
+    font-size: 25px;
+  }
+}

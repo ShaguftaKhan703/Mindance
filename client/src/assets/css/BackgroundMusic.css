@@ -1,0 +1,17 @@
+.volume {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-right: 30px;
+  padding-top: 100px;
+  z-index: 1;
+}
+
+.volumebtn {
+  height: 35px;
+  width: 35px;
+  background-color: transparent;
+  border-color: rgb(250, 145, 9);
+  font-size: 20px;
+  border-radius: 100%;
+}

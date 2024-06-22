@@ -1,0 +1,65 @@
+.ce-chats-container {
+  background-color: aliceblue !important;
+}
+
+.ce-chat-list {
+  background-color: aliceblue !important;
+}
+
+.ce-chat-form-container {
+  background-color: azure !important;
+}
+
+#new-chat-plus-button {
+  background-color: #7A50EF !important;
+}
+
+#new-chat-plus-button:hover {
+  background-color: #9F83EC !important;
+}
+
+.ce-active-chat-card {
+  background-color: #C4CEFF !important;
+}
+
+/* .ce-chat-feed-container {
+  background-image: linear-gradient(to bottom right, aliceblue 10%, azure 80%);
+} */
+
+/* .ce-chat-title-container {
+  background-color: #C4CEFF;
+} */
+
+.ce-chat-title-container .ce-chat-title-text {
+  color: #7A50EF;
+}
+
+.ce-chat-subtitle-text {
+  color: #5F30DF;
+}
+
+.ce-my-message-bubble {
+  background-color: #9F83EC !important;
+}
+
+#ce-send-message-button {
+  background-color: #7A50EF !important;
+}
+
+#ce-send-message-button:hover {
+  background-color: #9F83EC !important;
+}
+
+.ce-settings {
+  /* background-color: #C4CEFF !important; */
+  background-image: linear-gradient(to bottom right, aliceblue 10%, azure 80%);
+}
+
+.ce-text-input {
+  background-color: #C4CEFF !important;
+  color: #7A50EF;
+}
+
+/* .ce-settings div:not([class]) {
+  background-color: #C4CEFF !important;
+} */

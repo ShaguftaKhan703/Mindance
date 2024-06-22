@@ -1,0 +1,78 @@
+.whatweoffer {
+  background-color: #5e9d70;
+  height: 500px;
+  font-family: cursive; 
+}
+
+.title {
+  text-align: center;
+  color: #e5ff9b;
+  padding-top: 50px;
+
+  padding-bottom: 80px;
+  font-family: "Apercu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 70px;
+}
+
+#leftbox {
+  float: left;
+  text-align: center;
+  width: 33.3%;
+  height: 280px;
+}
+
+#middlebox {
+  float: left;
+  text-align: center;
+  width: 33.3%;
+  height: 280px;
+}
+
+#rightbox {
+  float: right;
+  text-align: center;
+  width: 33.3%;
+  height: 280px;
+}
+
+.offer {
+  padding-top: 40px;
+  color: #d4fdc0;
+  font-size: large;
+}
+.weHelpWith {
+  background: #9747ff;
+}
+
+.weHelpWith-para {
+  font-family: "Apercu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 120px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: #eedffa;
+  padding-left: 20px;
+}
+
+.weHelpWith-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 20px;
+  /* animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  } */
+}

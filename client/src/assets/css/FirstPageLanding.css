@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Crafty+Girls&family=Montserrat:wght@300;400;500;600&family=Poppins:wght@200;300;400;500;600&display=swap");
+
+:root {
+  --mainColor: #9f83ec;
+  --mainColorLight: #c4ceff;
+  --textColor: #ffffff;
+}
+
+.firstpage {
+  padding-top: 60px;
+  padding-left: 60px;
+  height: 600px;
+}
+
+.flex-parent-element {
+  display: flex;
+  background-color: #c4ceff;
+}
+
+.flex-child-element {
+  flex: 1;
+}
+
+.container {
+  position: absolute;
+  top: 1;
+  left: 1;
+  background-color: #7ca971;
+  height: 350px;
+  width: 250px;
+  text-align: center;
+  padding: 7px;
+  font-family: "Crafty Girls", cursive;
+  font-size: large;
+  font-weight: 800;
+  box-shadow: 0 4px 8px 0 rgb(56, 110, 129), 0 6px 20px 0 rgb(56, 110, 129);
+}
+
+.image2 {
+  width: 70%;
+  text-align: center;
+  margin: 10px auto;
+  padding-bottom: 60px;
+}
+
+.loginimage {
+  height: 30px;
+  border-radius: 100%;
+}
+.quote1 {
+  height: auto;
+  width: auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 100px;
+  text-align: left;
+  /* letter-spacing: -0.08em; */
+  padding-left: 50px;
+  color: #7a50ef;
+}
+
+.quote2 {
+  width: 389px;
+  height: 60px;
+  font-family: "Circular Std";
+  font-style: normal;
+
+  text-align: center;
+  padding-left: 50px;
+  padding-top: 50px;
+  color: #9747ff;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 100%;
+  position: absolute;
+  margin: 10px;
+}
+
+.container .dot {
+  background: #cea1f0;
+}
+
+.lefttop {
+  top: 0;
+  left: 0;
+}
+
+.leftbottom {
+  bottom: 0;
+  left: 0;
+}
+
+.righttop {
+  right: 0;
+  top: 0;
+}
+
+.rightbottom {
+  right: 0;
+  bottom: 0;
+}
+
+.container2 {
+  position: relative;
+  background-color: #d7bffe;
+  height: 250px;
+  width: 250px;
+  text-align: center;
+  margin-left: 200px;
+  padding: 7px;
+  font-family: "Crafty Girls", cursive;
+  font-size: large;
+  font-weight: 800;
+  box-shadow: 0 4px 8px 0 rgb(56, 110, 129), 0 6px 20px 0 rgb(56, 110, 129);
+  z-index: 0;
+  margin: 300px 180px;
+}
+
+.image3 {
+  width: 70%;
+  text-align: center;
+  margin: 10px auto;
+  padding-bottom: 30px;
+}
+
+.container2 .dot {
+  background: #7ca971;
+}
+
+.container3 {
+  position: relative;
+  height: 450px;
+  width: 550px;
+  text-align: center;
+  padding: 7px;
+  font-family: "Crafty Girls", cursive;
+  font-size: large;
+  font-weight: 800;
+  padding-left: 100px;
+}
+
+.image4 {
+  width: 40%;
+  text-align: center;
+  margin: 10px auto;
+  padding-bottom: 30px;
+}
+
+.button1 {
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+.container4 {
+  /* position: relative;
+  height: 480px;
+  width: 450px;
+  text-align: left;
+  padding: 7px;
+  font-family: "Crafty Girls", cursive;
+  font-size: large;
+  font-weight: 800;
+  margin-left: 200px;
+  box-shadow: 0 4px 8px 0 rgb(56, 110, 129), 0 6px 20px 0 rgb(56, 110, 129);
+  background-color: #9f83ec;
+  border-radius: 5%; */
+  text-align: center;
+  padding: 7px;
+  font-family: "Crafty Girls", cursive;
+  font-size: large;
+  font-weight: 800;
+}
+
+.typo {
+  padding-top: 10px;
+  padding-left: 10px;
+  color: #ffffff;
+  font-size: xx-large;
+  line-height: 90px;
+}
+
+.items {
+  padding-left: 10px;
+  line-height: 50px;
+  color: #eedffa;
+}
